@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.hero-body {
+    background-color: darkslategrey;
+}
+
+.field.fieldcon:hover {
+    transition: 1ms;
+    border: 1px solid slategray;
+}
+
+.control.contform {
+    border: 2px solid skyblue;
+}
+
+.control.contbtn {
+    border: 2px solid black;
+    border-radius: 0 3px 3px 0;
+}
+
+.button.btnsubmit:hover {
+    color: black;
+    background-color: seagreen;
+    font-weight: bold;
+    transition: 1ms;
+}
+
+.box.items-wrapper {
+    border: 2px solid rgb(51, 158, 18);
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+}
+
+.box {
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.descrip {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-top: 4px solid darkblue;
+    max-height: .4in;
+    background-color: cornsilk;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    max-height: inherit;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.contact-details:hover {
+    transform: translateY(8px);
+    color: tomato;
+}
