@@ -12,7 +12,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="robots" content="nood">
     <meta name="translated" content="false">
-    <meta property="og:title" content="ToDo Demo">
+    <meta property="og:title" content="Weather">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Check the weather before heading out">
     <meta property="og:url" content="">
@@ -21,8 +21,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'prevent.js' %}"></script>
 </head>
-<body>
+<body class="prevent" onpaste="show_error()" oncopy="show_error();" oncut="show_error();" ondrop="show_error();" autocomplete=off>
     <section class="hero is-primary">
         <div class="hero-body">
             <div class="container">
