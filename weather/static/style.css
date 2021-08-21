@@ -69,3 +69,8 @@ footer {
     transform: translateY(8px);
     color: tomato;
 }
+
+.item-column {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+}

@@ -50,7 +50,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column is-offset-4 is-4">
-                        {% for city_weather in weather_data %}
+                        <div class="item-column">
+                            {% for city_weather in weather_data %}
                         <div class="box items-wrapper">
                             <article class="media">
                                 <div class="media-left">
@@ -77,6 +78,7 @@
                             </article>
                         </div>
                         {% endfor %}
+                        </div>
                     </div>
                 </div>
             </div>
